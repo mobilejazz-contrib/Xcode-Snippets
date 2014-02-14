@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableviewcellnames m</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString * const &lt;#CellClassName#&gt;NibName = @"&lt;#CellClassName#&gt;";
+NSString * const &lt;#CellClassName#&gt;Identifier = @"&lt;#CellClassName#&gt;Identifier";</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D40539EC-941E-448A-AFDD-75165743FF05</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Add identifier and nib name</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>[NIB] UITableViewCell.m Constants</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
