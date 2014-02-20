@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>AddRemoveChildViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Adding and removing a child view controller
+
+- (void) displayChildViewController: (UIViewController*)childVC {
+    [self addChildViewController:childVC];
+    childVC.view.frame = &lt;#childViewFrame#&gt;;
+    [self.view addSubview:childVC.view];
+    [childVC didMoveToParentViewController:self];
+}
+
+- (void) removeChildViewController: (UIViewController*)childVC {
+    [childVC willMoveToParentViewController:nil];
+    [childVC.view removeFromSuperview];
+    [childVC removeFromParentViewController];
+}
+
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6CABC6F1-19F2-483C-B975-922D50B2754A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Functions for adding and removing a child view controller and its view to the current view controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective C - </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
